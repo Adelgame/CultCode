@@ -81,6 +81,8 @@
         margin: 0;
     }
 
+    
+
     .h1-location {
         text-align: center;
         font-size: calc( (100vw - 370px)/(800 - 370) * (48 - 26) + 26px);

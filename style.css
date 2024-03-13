@@ -170,6 +170,34 @@ footer{
 	background-color: #fff;
 }
 
+.toast-container{
+	z-index: 100;
+	position: fixed;
+	bottom:2;
+	width: 100%;
+	margin:0;
+}
+
+.toast{
+	left:0;
+	width: 80%;
+	margin-left: 7.5%;
+}
+
+.toast-header{
+	color: #4E6D2B;
+	font: 300 24px Gilroy;
+	font-size: calc( (100vw - 370px)/(1440 - 370) * (24 - 14) + 14px);
+	background-color:#C4BAA1;
+
+}
+
+.toast-body{
+	font: 300 20px Gilroy;
+	font-size: calc( (100vw - 370px)/(1440 - 370) * (20 - 14) + 14px);
+	color:black;
+}
+
 /*location.html*/
 
 .buildings-cards{
@@ -297,8 +325,8 @@ footer{
 	top:50%;
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%);
-	font: 300 50px Gilroy;
-	font-size: calc( (100vw - 370px)/(1440 - 370) * (50 - 20) + 20px);
+	font: 300 40px Gilroy;
+	font-size: calc( (100vw - 370px)/(1440 - 370) * (40 - 20) + 20px);
 	z-index:1;
 	color: white;
 	text-align:center;

@@ -3,12 +3,13 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Культурный код</title>
+		<link rel="shortcut icon" href="resources\img\main\icon.png" type="image/x-icon">
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<link href="adaptive.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		
 		<header>
 			<div class="btn">
 				<div class="btn-box"><h1 class="btn-main"><a href="main.html" class="btn-a">КУЛЬТУРНЫЙ КОД</a></h1></div>
@@ -40,14 +41,14 @@
 					<span class="visually-hidden">Next</span>
 					</button>
 				</div>
-      			<p class='slider-text'>Привет!<br> Это культурный код Московского Политеха</p>
+      			<p class='slider-text'>Культурный код Московского Политеха - это сервис с информацией о культурных местах Москвы. </p>
 			</div>	
 
 			<div class="accordion accordion-flush" id="accordionFlushExample">
 				<div class="accordion-item">
 				  <h2 class="accordion-header" id="flush-headingOne">
 					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-					  Accordion Item #1
+					  О нас
 					</button>
 				  </h2>
 				  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
@@ -57,7 +58,7 @@
 				<div class="accordion-item">
 				  <h2 class="accordion-header" id="flush-headingTwo">
 					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-					  Accordion Item #2
+					  Новости
 					</button>
 				  </h2>
 				  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
@@ -67,7 +68,7 @@
 				<div class="accordion-item">
 				  <h2 class="accordion-header" id="flush-headingThree">
 					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-					  Accordion Item #3
+					  Партнерам
 					</button>
 				  </h2>
 				  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
@@ -91,6 +92,22 @@
 				</svg>
 			</a>		
 		</div>
+
+		<div class="toast-container position-fixed bottom-0">
+			<div class="toast" data-bs-autohide="false">
+				<div class="toast-header">
+					<img src="resources\img\main\cat-icon.png" width="30" class="rounded me-2" alt="...">
+					<strong class="me-auto">Культурный Кот</strong>
+					<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+				</div>
+				<div class="toast-body">
+					Привет! Я проведу тебе экскурсию по сайту! В разделе "карта" наглядная схема расположения культурных мест относительно корпусов Московского Политеха. В разделе "локации" список всех культурных мест и их описание. В разделе "афиша" культурная программа с предстоящими  мероприятиями
+				</div>
+			</div>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		<script src="main.js"></script>
 
 	</body>
 </html>
