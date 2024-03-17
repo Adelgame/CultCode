@@ -24,11 +24,11 @@
         justify-content: center;
         margin: auto;
     }
-
     
     .btn-box{
-        width: 100%;
+        width: 95%;
         margin-top:20px;
+        margin: auto;
     }
 
     .btn-box:before{
@@ -53,24 +53,25 @@
     }
 
     .nav{
-        width: 100%;
+        width: 90%;
         flex-direction: column;
-        margin-top: 3.5vw;
-        margin-bottom: 3.5vw;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
         justify-content: center;
         margin-top: 0vw;
         margin-bottom: 2vw; 
     }
 
     .btn-head {
-        width: 100%;
+        width: 95%;
+        margin: auto;
         height: 7.5vw;
         margin-bottom: 2vw; 
         font-size: calc( (100vw - 370px)/(800 - 370) * (26 - 14) + 14px);
     }
 
     .btn-head:hover {
-        width:100%;
+        width:95%;
         height: 7.5vw;
         margin-bottom: 2vw;
         font-size: calc( (100vw - 370px)/(800 - 370) * (26 - 14) + 14px); 
@@ -81,7 +82,11 @@
         margin: 0;
     }
 
-    
+    .main-map{
+        width: 100%;
+        margin: auto;
+        margin-top: 20px;
+    }
 
     .h1-location {
         text-align: center;

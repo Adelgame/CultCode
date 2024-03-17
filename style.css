@@ -13,12 +13,15 @@ header {
 	justify-content: center;
 }
 
+.btn{
+	width: 749px;
+}
+
 nav{
 	margin-left:auto;
 	margin-right:auto;
 	display: flex;
 	flex-wrap: wrap;
-	width: 749px;
 	justify-content: space-between;
 	margin-top: 100px;
 	margin-bottom: 2vw;
@@ -28,6 +31,7 @@ nav{
 	position: fixed;
 	bottom: 13px;
 	right: 25px;
+	z-index: 100;
 }
 
 .telegram svg{
@@ -131,6 +135,14 @@ footer{
     background-color: #fff;
     position: relative;
     outline: none;
+}
+
+/*map.html*/
+
+.main-map{
+	width: 83%;
+	margin: auto;
+	margin-top: 20px;
 }
 
 /*main.html*/
