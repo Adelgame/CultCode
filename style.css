@@ -27,6 +27,17 @@ nav{
 	margin-bottom: 2vw;
 }
 
+.error{
+	margin-top:10vh;
+	margin-bottom: 10vh;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	font: 300 50px Gilroy;
+	font-size: calc( (100vw - 370px)/(1440 - 370) * (50 - 24) + 24px);
+}
+
 .telegram{
 	position: fixed;
 	bottom: 13px;
@@ -212,35 +223,20 @@ footer{
 
 /*location.html*/
 
-.buildings-cards{
-	margin-top: 83px;
+.builbing-href{
+	height: 50%;
 }
 
-.buildings-card {
+.location-card{
 	text-align: center;
-	position: relative;
-	height: 27vw;
-	margin-bottom:80px;
-}
-
-.buildings-card svg{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	display: inline-block;
-	width: 66%;
-}
-
-
-.small-building-card{
-	height: 24vw;
+	margin-top: 4vh;
+	margin-bottom: 4vh;
 }
 
 /*bolshaya_s.himl avtas.html pryaniki.html*/
 
 .h1-location {
-	font: 900 60px Gilroy;
+	font: 300 60px Gilroy;
 	width: 1196px;
 	margin-left: auto;
 	margin-right: auto;
@@ -352,7 +348,7 @@ footer{
 }
 
 .h1-place-name{
-	font: 900 50px Gilroy;
+	font: 300 50px Gilroy;
 	width: 81vw;
 	font-size: calc( (100vw - 370px)/(1440 - 370) * (50 - 24) + 24px);
 	margin-bottom: 3vw ;
