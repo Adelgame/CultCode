@@ -14,7 +14,14 @@
         width: 774px;
     }
 
+    .location-card svg{
+		width: 80%;
+		height: auto;
+	}
+
 }
+
+
 
 /*800px*/
 
