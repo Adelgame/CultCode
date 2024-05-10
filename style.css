@@ -397,6 +397,7 @@ footer{
 
 .posts-cover {
 	width: 100%;
+	border-radius: 4px;
 
 }
 
@@ -407,4 +408,49 @@ footer{
 
 .posts-frame:nth-of-type(3n+1){
 	margin-left: 0;
+}
+
+/*postS*/
+
+.article-header{
+	width: 83%;
+	margin: auto;
+}
+
+.h1-post {
+	font: 900 40px Gilroy;
+	font-size: calc( (100vw - 370px)/(1440 - 370) * (40 - 26) + 26px);
+	text-align: center;
+	color: #4E6D2B;
+	margin-top: 2vW;
+	margin-bottom: 2vW;
+}
+
+.href-post {
+	color: #4E6D2B;
+}
+
+.h2-post {
+	font: 900 30px Gilroy;
+	font-size: calc( (100vw - 370px)/(1440 - 370) * (30 - 20) + 20px);
+}
+
+.info-post{
+	font: 300 30px Gilroy;
+	font-size: calc( (100vw - 370px)/(1440 - 370) * (26 - 16) + 16px);
+}
+
+.text-post{
+	font: 300 30px Gilroy;
+	font-size: calc( (100vw - 370px)/(1440 - 370) * (26 - 16) + 16px);
+}
+
+.post-article{
+	margin-top: 4vW;
+	width: 83%;
+	margin: auto;
+}
+
+.color{
+	color: #4E6D2B;
 }
